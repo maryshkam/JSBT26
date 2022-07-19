@@ -1,4 +1,15 @@
 'use strict';
+
+// for (let i = 1; i <= 20; i += 1) {
+//   console.log(i);
+// }
+
+// let i = 0;
+// if (i <= 20) {
+//   console.log(i);
+//   i +=1
+// }
+
 /*
  * Циклы (while, do while, for)
  */
@@ -19,7 +30,7 @@
 
 // while (iterator < 50) {
 //   console.log(iterator);
-//   iterator = iterator + 1;
+//   iterator += iterator + 1;
 // }
 
 // console.log(iterator);
@@ -53,6 +64,34 @@
 ? Цикл повинен запитувати число, поки відвідувач не введе число, більше 100.
 ? Передбачається, що відвідувач вводить лише числа;
 */
+// let number;
+// do {
+//   number = Number(prompt("Введіть число більше 100"));
+// } while (number < 100);
+
+
+// let number = Number(prompt("Введіть число більше 100"));
+// while(number< 100) {
+//   number = Number(prompt("Введіть число більше 100"));
+// }
+const fruits =["pear",'apple', 'pear', 'grape', 'apple', 'cherry'];
+for (let i=0; i<fruits.length; i++){
+  if(fruits[i] === "apple") continue;
+  console.log(fruits[i]);
+}
+// for (let i = 0; i < 10; i++) {
+
+//   // если true, пропустить оставшуюся часть тела цикла
+//   if (i % 2 == 0) {
+//     continue;
+//   }
+  
+//   console.log(i); // 1, затем 3, 5, 7, 9
+// }
+
+
+
+
 
 
 /*
