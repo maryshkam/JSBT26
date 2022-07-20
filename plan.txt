@@ -1,16 +1,10 @@
-# Модуль 1. Заняття 1
+# Модуль 2. 
 
-- Що таке JavaScript. Підключеня скриптів.
-- Основи синтаксису: вирази, інструкції і крапка з комою
-- Примітивні типи даних: number, string, boolean, null та undefined
-- Виведення даних: console.log и alert
-- Вкладка Console в Chrome Devtools
-- Змінні: оголошення з let та const
-- Числа та основні оператори
-- Класи Math і Number
-- Рядки, шаблонні рядки та методи
-- Оператори порівняння
-- Логічні оператори: &&, ||, !
-- Приведення типів (чилове, рядкове, бульове)
+1) Масив
+2) for of
+3) link and value
+4) split, join, indexOf, includes, push, pop, splice
 
-[Практичні завдання](https://github.com/goitacademy/js-instructor-examples/blob/main/lesson-01.md)
+1) ф-її
+2) Область видимості
+3) Стек викликів
