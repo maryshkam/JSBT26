@@ -326,3 +326,30 @@
 // // let min;
 // // console.log(min); // 1
 // // ```
+
+
+const scores = [1, 2, 3, 4, 5];
+const colors = ["red", "green", ["blue", 'yellow']];
+
+// // Удаляем три элемента массива, начиная с первого элемента (индекс 0)
+// const deletedScores = scores.splice(0, 3);
+// console.log(deletedScores);
+// // console.log(scores);
+// const addedScores = scores.splice(1, 0, "6");
+// scores.splice(1, 2, 6, 7);
+const replaceScores = scores.splice(-1, 0, colors);
+// console.log(scores);
+console.log(scores[4][2][1]);
+// console.log(replaceScores)
+
+
+// const colors = ["red", "green", "blue"];
+
+colors.splice(2, 0, "purple");
+console.log(colors); // ["red", "green", "purple", "blue"]
+
+// Теперь массив scores содержит два элемента
+// console.log(scores); // [4, 5]
+
+// А массив deletedScores содержит три удаленных элемента
+// console.log(deletedScores); // [1, 2, 3]
